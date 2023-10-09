@@ -3,7 +3,7 @@ import Home from './components/Home';
 import SideBar from './components/SideBar';
 import Login from './components/Login';
 import Register from './components/Register';
-import AllProduct from './components/AllProduct';
+import ShowCatagory from './components/ShowCatagory';
 
 
 
@@ -16,7 +16,8 @@ function App() {
     <Route path="/side" element={<SideBar />} />
     <Route path="/login" element={<Login  />} />
     <Route path="/register" element={<Register />} />
-    <Route path="/allproduct" element={<AllProduct />} />
+
+    <Route path="/show" element={<ShowCatagory />} />
   
     </Routes>
     </BrowserRouter>

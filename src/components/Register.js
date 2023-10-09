@@ -3,9 +3,9 @@
 function Register() {
     return (
 
-<div class="h-screen bg-gradient-to-tl from-neutral-100 via-gray-300 to-gray-200 flex justify-center items-center">
+<div class="h-screen bg-gradient-to-tl from-neutral-100 via-gray-300 to-gray-200 flex justify-center ">
 <div class="lg:w-2/5 md:w-1/2 w-2/3">
-    <form class="bg-white p-10 rounded-lg shadow-lg min-w-full">
+    <form class="bg-white px-2 rounded-lg shadow-lg w-full my-20 ">
         <h1 class="text-center text-2xl mb-6 text-gray-600 font-bold font-sans">Form register</h1>
         <div>
             <label class="text-gray-800 font-semibold block my-3 text-md" for="username">Username</label>
