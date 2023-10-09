@@ -13,6 +13,7 @@ import 'slick-carousel/slick/slick-theme.css';
 function AllProduct() {
     var settings = {
         dots: true,
+       
         infinite: true,
         autoplay:true,
         speed: 500,
@@ -44,6 +45,7 @@ function AllProduct() {
           {
             breakpoint: 600,
             settings: {
+                autoplay:false,
               slidesToShow: 3,
               slidesToScroll: 1,
               initialSlide: 2
@@ -52,6 +54,7 @@ function AllProduct() {
           {
             breakpoint: 480,
             settings: {
+                autoplay:false,
               slidesToShow: 2,
               slidesToScroll: 1
             }
