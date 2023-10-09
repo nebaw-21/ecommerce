@@ -14,8 +14,9 @@ function Home() {
   return (
    
     <div className={`relative  ${isSidebarOpen ? 'h-screen overflow-hidden cursor-pointer' : ''}`}>
-   
+    
     <Header x={handleSidebarToggle} />
+    <AllProduct />
     {isSidebarOpen && (
       <>
       <div onClick={handleSidebarToggle}  className="md:translate-x-1/4 translate-x-11/12  absolute top-0  left-0  w-full  h-screen  bg-black bg-opacity-50 z-50 "></div>
@@ -25,7 +26,6 @@ function Home() {
 
     )}
 
-<AllProduct />
 
  <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/>
  <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/>
